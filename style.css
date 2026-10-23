@@ -371,3 +371,23 @@ footer {
   }
 }
 
+
+/* Lavender header — force the background color */
+header.site-header,
+.site-header {
+  background-color: #A689E1 !important;
+  background-image: none !important;
+  border-bottom: 1px solid #9272CD;
+}
+
+/* Header text and navigation */
+.site-header .site-name,
+.site-header nav a {
+  color: #291442;
+}
+
+.site-header .site-name:hover,
+.site-header nav a:hover {
+  color: #FFFFFF;
+}
+
